@@ -115,8 +115,9 @@ def randoming():
         continue_game = get_yes_no("Хотите сыграть еще раз? да/нет\n")
         if continue_game != "да":
             print(f"Игра завершена. Итог: {points} очков, всего игр: {game_number}")
-            print(f"Общее время всех игр: {total_time_spent:.2f} секунд")
+            print(f"Общее время всех игр: {total_time_spent} секунд")
             break
+
 
 
 randoming()
